@@ -8,8 +8,32 @@ package ups.edu.ec.poo.unidad01.ooms;
  *
  * @author HP USER
  */
-public class Gato {
+public class Gato extends Animal{
+
     private int numeroVidas;
-    private int numeroAcidentesFatales;
-    
+    private int numeroAccidentesFatales;
+
+    public int calcularVidasRestantes(){
+        return this.numeroVidas-this.numeroAccidentesFatales;
+    }
+
+
+    //Getters & Setters
+
+    public int getNumeroVidas() {
+        return numeroVidas;
+    }
+
+    public void setNumeroVidas(int numeroVidas) {
+        this.numeroVidas = numeroVidas;
+    }
+
+    public int getNumeroAccidentesFatales() {
+        return numeroAccidentesFatales;
+    }
+
+    public void setNumeroAccidentesFatales(int numeroAccidentesFatales) {
+        this.numeroAccidentesFatales = numeroAccidentesFatales;
+    }
+
 }
