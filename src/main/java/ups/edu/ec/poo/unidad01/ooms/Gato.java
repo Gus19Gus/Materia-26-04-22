@@ -16,8 +16,6 @@ public class Gato extends Animal{
     public int calcularVidasRestantes(){
         return this.numeroVidas-this.numeroAccidentesFatales;
     }
-
-
     //Getters & Setters
 
     public int getNumeroVidas() {

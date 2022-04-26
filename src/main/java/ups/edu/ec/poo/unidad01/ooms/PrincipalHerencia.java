@@ -1,4 +1,4 @@
-/*
+ /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
@@ -25,6 +25,14 @@ public class PrincipalHerencia {
 
         System.out.println(gatoMama.getNombre());
         System.out.println(gatoMama.calcularVidasRestantes());
+                
+                
+                
+                
+                
+                
+                
+                
 
 
         System.out.println("El animal nació en el año: "+perro.getYearNacimiento()+
